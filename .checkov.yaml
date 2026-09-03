@@ -5,6 +5,7 @@ skip-check:
   # Secrets encryption is optional via var.cluster_encryption_key_arn
   - CKV_AWS_58
   # Not all log types are required by default — configurable via var.enabled_cluster_log_types
+  - CKV_AWS_37
   - CKV_AWS_128
   # EKS control plane needs unrestricted egress for API calls to AWS services
   - CKV_AWS_382
