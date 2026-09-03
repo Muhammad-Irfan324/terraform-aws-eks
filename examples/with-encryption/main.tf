@@ -1,3 +1,7 @@
+terraform {
+  required_version = ">= 1.4"
+}
+
 ######################################################################
 # EKS Cluster with Secrets Encryption and Custom Node Group
 ######################################################################
